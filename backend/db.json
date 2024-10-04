@@ -1,0 +1,415 @@
+{
+  "users": [
+    {
+      "id": "60a9",
+      "UserID": "MBR02",
+      "FirstName": "Saruja",
+      "LastName": "Thooyamani",
+      "NICNumber": "8121558v",
+      "PhoneNumber": "10421",
+      "Email": "jhg@gmail.com",
+      "JoinDate": "2024-09-30",
+      "Password": "saru",
+      "UserRole": "member",
+      "RentCount": 0,
+      "ProfileImage": "./img4.jpg"
+    },
+    {
+      "id": "3b4c",
+      "UserID": "ADM03",
+      "FirstName": "saruja",
+      "LastName": "thooyamani",
+      "NICNumber": "998121558v",
+      "PhoneNumber": "10421",
+      "Email": "jhgdfhg@gmail.com",
+      "JoinDate": "2024-09-30",
+      "Password": "saru",
+      "UserRole": "admin",
+      "RentCount": 0,
+      "ProfileImage": "./img3.jpg"
+    },
+    {
+      "id": "37f6",
+      "UserID": "MBR03",
+      "FirstName": "Abish",
+      "LastName": "Sivakaran",
+      "NICNumber": "200418936",
+      "PhoneNumber": "07872524",
+      "Email": "abi@gmail.com",
+      "JoinDate": "2024-10-01",
+      "Password": "abi",
+      "UserRole": "member",
+      "RentCount": 0,
+      "ProfileImage": "./img2.jpg"
+    }
+  ],
+  "books": [
+    {
+      "BookID": 1,
+      "ISBN": "9781234567800",
+      "Title": "Beside Two Rivers",
+      "PublishYear": 2018,
+      "AddDateTime": "2023-02-10T12:00:00Z",
+      "Copies": 8,
+      "AvailableCopies": 5,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "Author A",
+      "ImageID": 1,
+      "id": "0075"
+    },
+    {
+      "BookID": 2,
+      "ISBN": "9781234567817",
+      "Title": "Harry Potter and the Philosophers Stone",
+      "PublishYear": 1997,
+      "AddDateTime": "2022-11-15T12:00:00Z",
+      "Copies": 15,
+      "AvailableCopies": 10,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "J.K. Rowling",
+      "ImageID": 2,
+      "id": "67d7"
+    },
+    {
+      "BookID": 3,
+      "ISBN": "9781234567824",
+      "Title": "Harry Potter and the Sorcerer's Stone",
+      "PublishYear": 1998,
+      "AddDateTime": "2023-03-20T12:00:00Z",
+      "Copies": 12,
+      "AvailableCopies": 3,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "J.K. Rowling",
+      "ImageID": 3,
+      "id": "2909"
+    },
+    {
+      "BookID": 4,
+      "ISBN": "9781234567831",
+      "Title": "Charles Dickens: A Biography",
+      "PublishYear": 2015,
+      "AddDateTime": "2023-04-05T12:00:00Z",
+      "Copies": 5,
+      "AvailableCopies": 1,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "Author B",
+      "ImageID": 4,
+      "id": "0ab3"
+    },
+    {
+      "BookID": 5,
+      "ISBN": "9781234567848",
+      "Title": "Gulliver's Travels",
+      "PublishYear": 1726,
+      "AddDateTime": "2022-10-01T12:00:00Z",
+      "Copies": 7,
+      "AvailableCopies": 4,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "Jonathan Swift",
+      "ImageID": 5,
+      "id": "8773"
+    },
+    {
+      "BookID": 6,
+      "ISBN": "9781234567855",
+      "Title": "Ratatouille",
+      "PublishYear": 2007,
+      "AddDateTime": "2023-06-18T12:00:00Z",
+      "Copies": 10,
+      "AvailableCopies": 10,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "Author C",
+      "ImageID": 6,
+      "id": "c2b0"
+    },
+    {
+      "BookID": 7,
+      "ISBN": "9781234567862",
+      "Title": "Sleeping Beauty",
+      "PublishYear": 1959,
+      "AddDateTime": "2023-07-22T12:00:00Z",
+      "Copies": 6,
+      "AvailableCopies": 2,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "Author D",
+      "ImageID": 7,
+      "id": "8035"
+    },
+    {
+      "BookID": 8,
+      "ISBN": "9781234567879",
+      "Title": "The Lord of the Rings",
+      "PublishYear": 1954,
+      "AddDateTime": "2022-09-12T12:00:00Z",
+      "Copies": 20,
+      "AvailableCopies": 15,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "J.R.R. Tolkien",
+      "ImageID": 8,
+      "id": "14ef"
+    },
+    {
+      "BookID": 9,
+      "ISBN": "9781234567886",
+      "Title": "Bedtime Stories",
+      "PublishYear": 2020,
+      "AddDateTime": "2023-08-30T12:00:00Z",
+      "Copies": 12,
+      "AvailableCopies": 6,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "Author E",
+      "ImageID": 9,
+      "id": "0771"
+    },
+    {
+      "BookID": 10,
+      "ISBN": "9781234567893",
+      "Title": "House of Dragons",
+      "PublishYear": 2021,
+      "AddDateTime": "2023-05-10T12:00:00Z",
+      "Copies": 9,
+      "AvailableCopies": 4,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "Author F",
+      "ImageID": 10,
+      "id": "5289"
+    },
+    {
+      "BookID": 11,
+      "ISBN": "9781234567909",
+      "Title": "Blood of Youth",
+      "PublishYear": 2022,
+      "AddDateTime": "2023-01-25T12:00:00Z",
+      "Copies": 5,
+      "AvailableCopies": 1,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "Author G",
+      "ImageID": 11,
+      "id": "d399"
+    },
+    {
+      "BookID": 12,
+      "ISBN": "9781234567916",
+      "Title": "Fantastic Beasts",
+      "PublishYear": 2016,
+      "AddDateTime": "2023-09-15T12:00:00Z",
+      "Copies": 10,
+      "AvailableCopies": 8,
+      "RentCount": 0,
+      "GenreID": 1,
+      "AuthorName": "J.K. Rowling",
+      "ImageID": 12,
+      "id": "d064"
+    }
+  ],
+  "book_genre": [
+    {
+      "GenreID": 1,
+      "Genre": "Fiction",
+      "id": "ba9e"
+    },
+    {
+      "GenreID": 2,
+      "Genre": "non-fiction",
+      "id": "427e"
+    },
+    {
+      "GenreID": 3,
+      "Genre": "comedy",
+      "id": "c5c0"
+    }
+  ],
+  "receive_books": [
+    {
+      "ReceiveID": 1,
+      "IssueID": 1,
+      "ISBN": "9781234567890",
+      "ReceivedCopies": 1,
+      "ReceiveDate": "2023-01-22",
+      "UserNIC": "NIC123456",
+      "id": "7153"
+    }
+  ],
+  "add_history": [
+    {
+      "AddID": 1,
+      "BookID": 1,
+      "ISBN": "9781234567890",
+      "Title": "Sample Book",
+      "AuthorID": 1,
+      "Copies": 10,
+      "PublishYear": 2020,
+      "AddDateTime": "2023-01-01T12:00:00Z",
+      "id": "5af0"
+    }
+  ],
+  "add_images": [
+    {
+      "ImageID": 1,
+      "AddID": 1,
+      "Image1": "./OIP.jpg",
+      "Image2": "./OIP0.1.jpg",
+      "Image3": "./OIP0.2.jpg",
+      "Image4": "./OIP0.3.jpg",
+      "id": "e081"
+    },
+    {
+      "ImageID": 2,
+      "AddID": 1,
+      "Image1": "./OIP2.jpg",
+      "Image2": "./OIP2.1.jpg",
+      "Image3": "./OIP2.2.jpg",
+      "Image4": "./OIP2.3.jpg",
+      "id": "e1d1"
+    },
+    {
+      "ImageID": 3,
+      "AddID": 2,
+      "Image1": "./OIP3.jpg",
+      "Image2": "./OIP3.1.jpg",
+      "Image3": "./OIP3.2.jpg",
+      "Image4": "./OIP3.3.jpg",
+      "id": "cf17"
+    },
+    {
+      "ImageID": 4,
+      "AddID": 2,
+      "Image1": "./OIP4.jpg",
+      "Image2": "./OIP4.1.jpg",
+      "Image3": "./OIP4.2.jpg",
+      "Image4": "./OIP4.3.jpg",
+      "id": "fbd6"
+    },
+    {
+      "ImageID": 5,
+      "AddID": 3,
+      "Image1": "./OIP5.jpg",
+      "Image2": "./OIP5.1.jpg",
+      "Image3": "./OIP5.2.jpg",
+      "Image4": "./OIP5.3.jpg",
+      "id": "2f92"
+    },
+    {
+      "ImageID": 6,
+      "AddID": 3,
+      "Image1": "./OIP6.jpg",
+      "Image2": "./OIP6.1.jpg",
+      "Image3": "./OIP6.2.jpg",
+      "Image4": "./OIP6.3.jpg",
+      "id": "a9f5"
+    },
+    {
+      "ImageID": 7,
+      "AddID": 4,
+      "Image1": "./OIP7.jpg",
+      "Image2": "./OIP7.1.jpg",
+      "Image3": "./OIP7.2.jpg",
+      "Image4": "./OIP7.3.jpg",
+      "id": "f3cc"
+    },
+    {
+      "ImageID": 9,
+      "AddID": 5,
+      "Image1": "./OIP9.jpg",
+      "Image2": "./OIP9.1.jpg",
+      "Image3": "./OIP9.2.jpg",
+      "Image4": "./OIP9.3.jpg",
+      "id": "e8e3"
+    },
+    {
+      "ImageID": 10,
+      "AddID": 5,
+      "Image1": "./OIP10.jpg",
+      "Image2": "./OIP10.1.jpg",
+      "Image3": "./OIP10.2.jpg",
+      "Image4": "./OIP10.3.jpg",
+      "id": "29d4"
+    },
+    {
+      "ImageID": 11,
+      "AddID": 5,
+      "Image1": "./OIP11.jpg",
+      "Image2": "./OIP11.1.jpg",
+      "Image3": "./OIP11.2.jpg",
+      "Image4": "./OIP11.3.jpg",
+      "id": "4252"
+    },
+    {
+      "ImageID": 12,
+      "AddID": 5,
+      "Image1": "./OIP12.jpg",
+      "Image2": "./OIP12.1.jpg",
+      "Image3": "./OIP12.2.jpg",
+      "Image4": "./OIP12.3.jpg",
+      "id": "3f57"
+    }
+  ],
+  "requests": [
+    {
+      "id": "d73b",
+      "BookID": 1,
+      "requestId": 1,
+      "NICNumber": "998121558v",
+      "requestedDate": "10/3/2024",
+      "requestType": "lend",
+      "status": "approved"
+    },
+    {
+      "id": "74a5",
+      "BookID": 2,
+      "requestId": 2,
+      "NICNumber": "200418936",
+      "requestedDate": "10/4/2024",
+      "requestType": "lend",
+      "status": "approved"
+    }
+  ],
+  "lends": [
+    {
+      "id": "dd28",
+      "requestId": 2,
+      "lendStatus": "pending",
+      "dueDate": "2024-10-11",
+      "approvedDate": "2024-10-04",
+      "returnedDate": null
+    },
+    {
+      "id": "182d",
+      "requestId": 1,
+      "lendStatus": "pending",
+      "dueDate": "2024-10-11",
+      "approvedDate": "2024-10-04",
+      "returnedDate": null
+    }
+  ],
+  "notifications": [
+    {
+      "NICNumber": "200418936",
+      "alert": "sgjhhjgsukayg",
+      "alertDate": "12/12/12"
+    },
+    {
+      "id": "fef4",
+      "NICNumber": "998121558v",
+      "alert": "Please return the book \"Beside Two Rivers\". Approved Date: 2024-10-04, Due Date: 2024-10-11",
+      "alertDate": "2024-10-04T13:01:36.971Z"
+    },
+    {
+      "id": "8ee9",
+      "NICNumber": "200418936",
+      "alert": "Please return the book \"Harry Potter and the Philosophers Stone\". Approved Date: 2024-10-04, Due Date: 2024-10-11",
+      "alertDate": "2024-10-04T13:02:33.551Z"
+    }
+  ]
+}
